@@ -7,7 +7,6 @@ export default function EtchASketch() {
   const [size, setSize] = useState(10);
   const [rainbow, setRainbow] = useState(true);
   let tiles = [];
-  let tileRefs = [];
 
   let style = {"--size": `${size}`};
 
